@@ -16,18 +16,6 @@ for (let i: number = 1; i <= count; i++) {
   }
 }
 
-/*
-while (rows.length < count) {
-  rows.push(padRow(rows.length + 1, count));
-}
-*/
-
-/*
-for (let i: number = count; i > 0; i--) {
-  rows.push(padRow(i, count));
-}
-*/
-
 const result: string = rows.join("\n");
 
 console.log(result);
